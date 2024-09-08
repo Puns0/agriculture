@@ -1,20 +1,9 @@
-/* General styles */
 .container {
-    width: 100%;  /* Full width of the device */
-    padding: 20px;
+    width: 90%; /* Responsive width */
+    max-width: 1200px; /* Limiting the max width */
+    margin: 0 auto; /* Centering the container */
 }
 
-.column {
-    width: 50%;  /* Two columns side by side on larger screens */
-    float: left;
-    padding: 10px;
-}
-
-@media screen and (max-width: 768px) {
-    .column {
-        width: 100%;  /* Stack columns on top of each other on smaller screens */
-    }
-}
 
 header h1{
   align-items: center;
