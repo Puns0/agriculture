@@ -1,0 +1,126 @@
+/* General styles */
+header h1{
+  align-items: center;
+  font-size: x-large;
+  
+}
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+header {
+  background-color: #3E8E41;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 200px;
+}
+
+nav {
+  background-color: #2C3E50;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #1ABC9C;
+}
+
+main {
+  padding: 40px 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Animations for images */
+.animated-img {
+  opacity: 0;
+   
+}
+
+
+
+/* Button styling */
+button.animated-btn {
+  background-color: #3E8E41;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button.animated-btn:hover {
+  background-color: #1ABC9C;
+  transform: scale(1.05);
+}
+
+/* Footer styling */
+footer {
+  background-color: #2C3E50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+  nav ul li {
+      float: none;
+  }
+
+  nav ul li a {
+      text-align: left;
+      padding: 10px;
+  }
+
+  main {
+      padding: 20px;
+  }
+}
